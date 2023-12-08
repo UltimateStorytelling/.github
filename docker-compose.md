@@ -1,4 +1,6 @@
-frontend backend 상위폴더에 작성할 docker-compose.yml 정보
+docker-compose.ymL<br>
+
+```
 
 version: "3"
 services:
@@ -70,3 +72,9 @@ networks:
 volumes:
     mysql-data:
 
+```
+
+이후 실행방법
+
+1. 최상위 풀더에서 docker compose up --build
+2. 이후 컨테이너에서 빌드된 이미지를 실행/중지
